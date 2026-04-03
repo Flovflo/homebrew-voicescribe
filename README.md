@@ -1,8 +1,8 @@
 # Homebrew Tap for VoiceScribe
 
-Official Homebrew tap for [VoiceScribe](https://github.com/Flovflo/VoiceScribe) — the fastest local voice-to-text for Mac.
+Official Homebrew tap for [VoiceScribe](https://github.com/Flovflo/VoiceScribe), the native Swift + MLX dictation app for macOS.
 
-## Installation
+## Install
 
 ```bash
 brew tap Flovflo/voicescribe
@@ -11,18 +11,16 @@ brew install voicescribe
 
 ## Requirements
 
-- macOS 14.0+ (Sonoma)
-- Apple Silicon (M1/M2/M3/M4)
-- Python 3.11+
+- macOS 14+
+- Apple Silicon
+- microphone permission
+- accessibility permission for automatic paste
 
-After installation, run:
-```bash
-pip3 install git+https://github.com/Blaizzy/mlx-audio.git
-```
+## Notes
 
-## Usage
-
-Press `⌥ Option + Space` anywhere to start/stop voice transcription.
+- this tap installs the official app bundle from the main VoiceScribe GitHub releases
+- no Python runtime or extra ASR dependency is required
+- launch with `open /opt/homebrew/opt/voicescribe/VoiceScribe.app` or from `/Applications/VoiceScribe.app`
 
 ## License
 
