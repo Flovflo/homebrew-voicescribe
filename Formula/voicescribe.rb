@@ -1,8 +1,8 @@
 class Voicescribe < Formula
   desc "Local AI dictation app for macOS powered by Qwen3-ASR"
   homepage "https://github.com/Flovflo/VoiceScribe"
-  url "https://github.com/Flovflo/VoiceScribe/releases/download/v1.4.1/VoiceScribe-v1.4.1.tar.gz"
-  sha256 "19ecd3e716c0404cfc8794e5e0b0b033d2b890d34742a7c2c92ac90a6e1e6b23"
+  url "https://github.com/Flovflo/VoiceScribe/releases/download/v1.4.2/VoiceScribe-v1.4.2.tar.gz"
+  sha256 "4555f5f6930c5a1a26caf1057ab33ecced20ce52fff783d176fc621eb78962ac"
   license "MIT"
 
   depends_on arch: :arm64
